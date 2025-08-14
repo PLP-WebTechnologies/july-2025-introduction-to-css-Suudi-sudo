@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics & Box Model Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="main-header">
+    
+        <h1 class="site-title">Sweet Dreams Bakery</h1>
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+       
+            <h2 class="hero-title">Fresh Baked Daily</h2>
+            <p class="hero-description">
+                Welcome to Sweet Dreams Bakery! This page demonstrates CSS basics and the Box Model through various styled elements.
+                Each section showcases different aspects of margin, padding, and border properties in a delicious bakery context.
+            </p>
+            <button class="cta-button">Order Now</button>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+               
+                <h2 class="section-title">Our Story</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="intro-paragraph">
+                            Sweet Dreams Bakery has been serving the community with fresh, handcrafted baked goods since 2023.
+                            This website demonstrates CSS fundamentals through our bakery's online presence.
+                        </p>
+                        <p class="detail-paragraph">
+                            The Box Model is fundamental to CSS layout, just like quality ingredients are fundamental to great baking.
+                            Every element is essentially a box with content, padding, border, and margin areas that can be styled independently.
+                        </p>
+                    </div>
+                    <div class="skills-box">
+                       
+                        <h3 class="skills-title">Our Specialties</h3>
+                        <ul class="skills-list">
+                            <li class="skill-item">Fresh Bread</li>
+                            <li class="skill-item">Custom Cakes</li>
+                            <li class="skill-item">Pastries</li>
+                            <li class="skill-item">Wedding Cakes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="projects-section">
+            <div class="container">
+                
+                <h2 class="section-title">Our Menu</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3 class="project-title">Artisan Breads</h3>
+                        <p class="project-description">
+                            Fresh baked daily using traditional methods and premium ingredients.
+                            Perfect for sandwiches or enjoying with butter and jam.
+                        </p>
+                        <button class="project-button">View Selection</button>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">Custom Cakes</h3>
+                        <p class="project-description">
+                            Beautiful custom cakes for birthdays, weddings, and special occasions.
+                            Made to order with your choice of flavors and decorations.
+                        </p>
+                        <button class="project-button">Order Cake</button>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">Daily Pastries</h3>
+                        <p class="project-description">
+                            Croissants, muffins, cookies, and seasonal treats baked fresh every morning.
+                            Perfect with your morning coffee or afternoon tea.
+                        </p>
+                        <button class="project-button">See Today's Selection</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Box Model Demo Section -->
+        <section class="box-model-demo">
+            <div class="container">
+                <h2 class="section-title">Box Model Demonstration</h2>
+                <p class="demo-description">
+                    The boxes below show different combinations of margin, padding, and border properties:
+                </p>
+                <div class="demo-boxes">
+                    <div class="demo-box box-1">
+                        <p>Box 1: Large padding, thin border</p>
+                    </div>
+                    <div class="demo-box box-2">
+                        <p>Box 2: Medium padding, thick border</p>
+                    </div>
+                    <div class="demo-box box-3">
+                        <p>Box 3: Small padding, dashed border</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="main-footer">
+        <div class="container">
+           
+            <h2 class="footer-title">Visit Us Today</h2>
+            <p class="footer-text">
+                Stop by our bakery for fresh baked goods or contact us for custom orders and catering.
+            </p>
+            <div class="contact-info">
+                <p class="contact-item">Address: Nairobi, Sweet Town</p>
+            
+                <p class="contact-item">Hours: Mon-Sat 6AM-8PM, Sun 7AM-6PM</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
